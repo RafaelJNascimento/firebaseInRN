@@ -1,79 +1,67 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# FirebaseInRN
 
-# Getting Started
+## Objetivo
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+O objetivo do FirebaseInRN é oferecer um exemplo de implementação simplificada e eficaz das bibliotecas do Firebase 
 
-## Step 1: Start the Metro Server
+## Tecnologias Utilizadas
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- **Firebase Auth:** O Firebase Authentication fornece serviços de back-end para autenticar usuários no aplicativo.
+- **React Native:** Framework para o desenvolvimento de aplicativos móveis multiplataforma, baseado em JavaScript e React.
+- **Yup:** Biblioteca de validação de esquemas JavaScript para análise e validação de dados.
+- **React Hook Form:** Biblioteca de gerenciamento de formulários React eficiente e flexível, baseada em hooks.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Inicie o aplicativo
 
-```bash
-# using npm
-npm start
+Para executar o FirebaseInRN ao seu projeto, siga os passos abaixo:
 
-# OR using Yarn
-yarn start
-```
+1. **Instalação das Dependências:**
+    Certifique-se de instalar as dependências:
 
-## Step 2: Start your Application
+    ```bash
+    # usando Yarn
+    yarn install
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+    # Em caso de iOS é necessário entrar no diretório ios
+    # e rodar o seguinte comando
+    cd ios
+    pod install
+    ```
 
-### For Android
+    #### Android
 
-```bash
-# using npm
-npm run android
+    Para iniciar o Metro, execute o comando a baixo dentro da pasta do projeto React Native:
 
-# OR using Yarn
-yarn android
-```
+    ```bash
+    yarn start
+    ```
 
-### For iOS
+    Deixe que o Metro Bundler seja executado em seu próprio terminal. Abra um novo terminal dentro da pasta do projeto React Native. Execute o seguinte comando:
 
-```bash
-# using npm
-npm run ios
+    ```bash
+    # Usando Yarn
+    yarn android
+    ```
 
-# OR using Yarn
-yarn ios
-```
+    #### Ios
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+    Os aplicativos para ios só compilam em maquinas apple.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+    Para iniciar o Metro, execute o comando a baixo dentro da pasta do projeto React Native:
 
-## Step 3: Modifying your App
+    ```bash
+    yarn start
+    ```
 
-Now that you have successfully run the app, let's modify it.
+    Deixe que o Metro Bundler seja executado em seu próprio terminal. Abra um novo terminal dentro da pasta do projeto React Native. Execute o seguinte comando:
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+    ```bash
+    # Ou usando Yarn
+    yarn ios
+    ```
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## :memo: Licença
 
-## Congratulations! :tada:
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Feito por Rafael J. Nascimento

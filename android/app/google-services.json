@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971405972659",
+    "project_id": "snipetcrashlytics",
+    "storage_bucket": "snipetcrashlytics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971405972659:android:ab6b61320e466c3e088cc6",
+        "android_client_info": {
+          "package_name": "br.com.engrafaeljosedonascimento.myexamplefirebaseinrn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwqj8KBEFD33LWaHomB8fAfI3A2WcS0OU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

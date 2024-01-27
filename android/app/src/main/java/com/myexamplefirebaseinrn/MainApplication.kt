@@ -1,4 +1,4 @@
-package com.myexamplefirebaseinrn
+package br.com.engrafaeljosedonascimento.myexamplefirebaseinrn
 
 import android.app.Application
 import com.facebook.react.PackageList
